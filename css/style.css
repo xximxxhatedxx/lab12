@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5vmin;
+}
+ 
+#container{
+    height: 100vmin;
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#card{
+    height: 50%;
+    width: 80%;
+    appearance: none;
+    background-color: inherit;
+    border: 1px lightgray solid;
+    box-shadow: 0 0 20px 1px lightgray;
+    font-size: 3.5vmin;
+    cursor: pointer;
+}
+ 
+#navbar{
+    height: 7.5%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+#answer{
+    height: 7.5%;
+    width: 50%;
+    background-color: white;
+    appearance: none;
+    border: 3px lightskyblue solid;
+    border-radius: 20% / 100%;
+    font-size: 3.5vmin;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+ 
+#stats{
+    height: 15%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+ 
+#statsResults{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+ 
+#statsResults > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+#statsCorrect{
+    color: #00c400;
+}
+ 
+#statsWrong{
+    color:#ff0000;
+}
+ 
+#statsText{
+    color:#0000ff;
+}
+ 
+#navbarText{
+    font-weight: bold;
+    padding: 0 10px;
+}
+ 
+#navbar button {
+    height: 70%;
+    aspect-ratio: 1/1;
+    appearance: none;
+    border: 0;
+    background-color: inherit;
+    cursor: pointer;
+}
+ 
+button svg{
+    height: 100%;
+    width: 100%;
+}
+
+#difficulty{
+    height: 10%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+label {
+    font-size: 2.5vmin;
+    font-weight: bold;
+}
